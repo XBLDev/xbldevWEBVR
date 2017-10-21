@@ -1,6 +1,12 @@
 # xbldevWEBVR
 WEBVR exercise, since webvr is still experimental, the code in this repo is expected to change a lot over time. Most of the code will be based on the webvr repo: https://github.com/GoogleChrome/samples/tree/gh-pages/web-vr.
 
+Comment 21/10/2017:
+
+Added basic ReactVR project, put the camera cursor visibility settings on in the VR initialization, doesn't seem 
+to be working in the VR mode on Chrome, and it's not visible. The mouse however can trigger an onEnter event of 
+the text and changes its color when the the mouse hovers over it.
+
 Comment 27/09/2017:
 
 First commit: Basic webvr setup from: https://github.com/GoogleChrome/samples/tree/gh-pages/web-vr/hello-world
